@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://localhost:1313/posts/content/</link>
+    <description>Recent content on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>test@example.com (Web Author)</managingEditor>
+    <webMaster>test@example.com (Web Author)</webMaster>
+    <lastBuildDate>Sat, 12 May 2018 13:49:50 +1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/content/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/posts/content/contact/</link>
+      <pubDate>Sat, 12 May 2018 13:49:50 +1000</pubDate><author>test@example.com (Web Author)</author>
+      <guid>http://localhost:1313/posts/content/contact/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thanks for Contacting Us</title>
+      <link>http://localhost:1313/posts/content/contact_thanks/</link>
+      <pubDate>Sat, 12 May 2018 13:38:38 +1000</pubDate><author>test@example.com (Web Author)</author>
+      <guid>http://localhost:1313/posts/content/contact_thanks/</guid>
+      <description>Thanks for touching base with us. Someone from Alpha Church will be in touch soon.</description>
+    </item>
+    <item>
+      <title>John Calvin: Institutes 2 11</title>
+      <link>http://localhost:1313/posts/content/sermons/institutes-2-11/</link>
+      <pubDate>Thu, 03 May 2018 20:12:30 +1000</pubDate><author>test@example.com (Web Author)</author>
+      <guid>http://localhost:1313/posts/content/sermons/institutes-2-11/</guid>
+      <description>Public Domain recording from librivox</description>
+    </item>
+    <item>
+      <title>Kids</title>
+      <link>http://localhost:1313/posts/content/kids/</link>
+      <pubDate>Tue, 01 May 2018 07:39:12 +1000</pubDate><author>test@example.com (Web Author)</author>
+      <guid>http://localhost:1313/posts/content/kids/</guid>
+      <description>This is an example of multiple columns.&#xA;Unfortunately it needs the author to write html to work (though I could put everything in the front matter!)&#xA;Left Column&#xD;You can fill this in with html or *markdown* And another subheading&#xD;Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus.</description>
+    </item>
+    <item>
+      <title>Leaders</title>
+      <link>http://localhost:1313/posts/content/leaders/</link>
+      <pubDate>Mon, 30 Apr 2018 14:27:13 +1000</pubDate><author>test@example.com (Web Author)</author>
+      <guid>http://localhost:1313/posts/content/leaders/</guid>
+      <description>This is a page about leaders </description>
+    </item>
+  </channel>
+</rss>

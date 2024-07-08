@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on </title>
+    <link>http://localhost:1313/events/</link>
+    <description>Recent content in Events on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>test@example.com (Web Author)</managingEditor>
+    <webMaster>test@example.com (Web Author)</webMaster>
+    <lastBuildDate>Sun, 07 Jul 2024 21:33:51 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023 Chinese new year</title>
+      <link>http://localhost:1313/events/2023-chinese-new-year/</link>
+      <pubDate>Sun, 07 Jul 2024 21:33:51 -0400</pubDate><author>test@example.com (Web Author)</author>
+      <guid>http://localhost:1313/events/2023-chinese-new-year/</guid>
+      <description>Being an inclusive badminton club, on Friday February 9, we celebrated the Chinese New Year.&#xA;Since its The year of the Dragon, Cindy made this very beautiful and very delicious cake.&#xA;Thanks Cindy!</description>
+    </item>
+  </channel>
+</rss>
