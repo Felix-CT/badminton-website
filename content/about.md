@@ -1,6 +1,6 @@
 ---
 title: "About"
-images: ["img/cake.jpg"]
+images: ["img/group.jpg"]
 draft: false
 ---
 
