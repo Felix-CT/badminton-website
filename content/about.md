@@ -1,6 +1,6 @@
 ---
 title: "About"
-images: ["img/group.jpg"]
+images: ["img/group_cropped.jpg"]
 draft: false
 ---
 
