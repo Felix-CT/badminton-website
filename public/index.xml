@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>//localhost:1313/</link>
+    <link>/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>test@example.com (Web Author)</managingEditor>
     <webMaster>test@example.com (Web Author)</webMaster>
     <lastBuildDate>Sun, 07 Jul 2024 21:33:51 -0400</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023 Chinese new year</title>
-      <link>//localhost:1313/events/2023-chinese-new-year/</link>
+      <link>/events/2023-chinese-new-year/</link>
       <pubDate>Sun, 07 Jul 2024 21:33:51 -0400</pubDate><author>test@example.com (Web Author)</author>
-      <guid>//localhost:1313/events/2023-chinese-new-year/</guid>
+      <guid>/events/2023-chinese-new-year/</guid>
       <description>Being an inclusive badminton club, on Friday February 9, we celebrated the Chinese New Year.&#xA;Since its The year of the Dragon, Cindy made this very beautiful and very delicious cake.&#xA;Thanks Cindy!</description>
     </item>
     <item>
       <title>First_announcement</title>
-      <link>//localhost:1313/announcements/first_announcement/</link>
+      <link>/announcements/first_announcement/</link>
       <pubDate>Sun, 07 Jul 2024 21:23:56 -0400</pubDate><author>test@example.com (Web Author)</author>
-      <guid>//localhost:1313/announcements/first_announcement/</guid>
+      <guid>/announcements/first_announcement/</guid>
       <description></description>
     </item>
     <item>
       <title>2022-2023 holidays</title>
-      <link>//localhost:1313/events/2022-2023-holidays/</link>
+      <link>/events/2022-2023-holidays/</link>
       <pubDate>Wed, 10 Jan 2024 21:33:51 -0400</pubDate><author>test@example.com (Web Author)</author>
-      <guid>//localhost:1313/events/2022-2023-holidays/</guid>
+      <guid>/events/2022-2023-holidays/</guid>
       <description>Hi to all badminton members,&#xA;Happy New Year first of all.&#xA;Hope you are all having a good year so far&#xA;And also included, are the photos taken during our Christmas “Open House” badminton session on December 22th. Special thanks to Justin and Eveline who helped with the decorations and to Cindy who made and decorated the beautiful badminton cake. It was very delicious!&#xA;Thanks also to all of you who were very patient with the large number of guests we had during that evening.</description>
     </item>
     <item>
       <title>Thanks for Contacting Us</title>
-      <link>//localhost:1313/contact_thanks/</link>
+      <link>/contact_thanks/</link>
       <pubDate>Sat, 12 May 2018 13:38:38 +1000</pubDate><author>test@example.com (Web Author)</author>
-      <guid>//localhost:1313/contact_thanks/</guid>
+      <guid>/contact_thanks/</guid>
       <description>Thanks for your inquiry, we will be in touch with you soon.</description>
     </item>
     <item>
       <title>About</title>
-      <link>//localhost:1313/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>test@example.com (Web Author)</author>
-      <guid>//localhost:1313/about/</guid>
+      <guid>/about/</guid>
       <description>Welcome to the Bell Badminton Club! Established in 2005, our club is dedicated to promoting the love of badminton among players of all ages and skill levels. We offer a friendly and inclusive environment where members can enjoy both recreational and competitive play. With great courts, experienced players, and a vibrant community, Bell Badminton Club is the perfect place to improve your skills, make new friends, and stay active. Join us and be a part of our growing badminton family!</description>
     </item>
   </channel>
