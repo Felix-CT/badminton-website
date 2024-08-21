@@ -59,9 +59,33 @@ enableInlineShortcodes = true
     weight = 2
 
   [[menu.main]]
-    name = "Sign Up"
-    url = "/sign-up"
+    name = "Calendar"
+    parent = "Events"
+    url = "/calendar"
+    weight = 2 
+
+  [[menu.main]]
+    name = "Join us"
+    url = "/sign_up"
     weight = 2
+
+  [[menu.main]]
+    name = "Sign Up"
+    parent = "Join us"
+    url = "/sign_up"
+    weight = 2  
+    
+  [[menu.main]]
+    name = "Guests"
+    parent = "Join us"
+    url = "/guest_list"
+    weight = 3
+    
+  [[menu.main]]
+    name = "Waitlist"
+    parent = "Join us"
+    url = "/waitlist"
+    weight = 4
 
   [[menu.main]]
     name = "Contact"
