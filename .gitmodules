@@ -1,3 +1,3 @@
-[submodule "themes/alpha-church"]
-	path = themes/alpha-church
-	url = https://github.com/funkydan2/alpha-church
+[submodule "themes/--force"]
+	path = themes/--force
+	url = https://github.com/funkydan2/alpha-church.git
