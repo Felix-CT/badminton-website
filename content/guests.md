@@ -4,6 +4,12 @@ tags: ""
 draft: false
 ---
 
-<div style="display: flex; justify-content: center;">
-    <iframe src="https://docs.google.com/spreadsheets/d/1TDw4-oMK2cisbAnKpHYRmT-5Bs-1GSZuvFxuu3ghd14/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width= 400 height = 500></iframe>
-</div>
+<h1>Guests Allowed This Week</h1>
+
+<p id="guests-count">Loading...</p>
+
+<script>
+    // Load the number of guests from localStorage (can be replaced with a backend call)
+    const guests = localStorage.getItem('numberOfGuests');
+    document.getElementById('guests-count').textContent = guests ? guests : 'Not Set';
+</script>
