@@ -78,7 +78,7 @@ enableInlineShortcodes = true
   [[menu.main]]
     name = "Guests"
     parent = "Join us"
-    url = "/guest_list"
+    url = "/guests"
     weight = 3
     
   [[menu.main]]

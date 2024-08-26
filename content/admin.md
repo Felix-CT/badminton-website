@@ -10,7 +10,6 @@ draft: false
 <form id="password-form">
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" required>
-    <br><br>
     <button type="submit">Login</button>
 </form>
 
