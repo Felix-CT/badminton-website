@@ -92,6 +92,11 @@ enableInlineShortcodes = true
     url = "/contact"
     weight = 4
 
+  [[menu.main]]
+    name = "Admin"
+    url = "/admin"
+    weight = 5
+
 # Paramaters for the whole site
 [params]
   title = "Bell Badminton Club"
