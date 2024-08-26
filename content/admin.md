@@ -4,20 +4,25 @@ tags: ""
 draft: false
 ---
 
-
 <h1>Administrator Tools</h1>
 
-<form id="admin-form">
+<!-- Password Form -->
+<form id="password-form">
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" required>
     <br><br>
+    <button type="submit">Login</button>
 </form>
 
-<label for="guests">Set Number of Guests Allowed:</label>
-<input type="number" id="guests" name="guests" required>
-<br><br>
+<!-- Guest Input Form (Initially Hidden) -->
+<form id="guest-form" style="display:none;">
+    <label for="guests">Set Number of Guests Allowed:</label>
+    <input type="number" id="guests" name="guests" required>
+    <br><br>
+    <button type="submit">Update</button>
+</form>
 
-<button type="submit">Update</button>
+<!-- Message Display -->
 <p id="message"></p>
 
-<script src="admin.js"></script>
+<script src="/static/js/admin.js"></script>
