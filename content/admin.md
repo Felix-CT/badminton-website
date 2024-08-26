@@ -25,4 +25,4 @@ draft: false
 <!-- Message Display -->
 <p id="message"></p>
 
-<script src="/static/js/admin.js"></script>
+<script src="/js/admin.js"></script>
