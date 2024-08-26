@@ -64,18 +64,44 @@
         
             
                 <li>
-                    <a href="/events">
-                         Events
+                    <a href="/events"><i class="fas fa-angle-down"></i>
+                        Events
                     </a>
-                </li>
+                    <ul>
+                      
+                          
+                            <li><a href="/calendar">Calendar</a></li>
+                          
+                          </li>
+                      
+                    </ul>
+                  </li>
             
         
             
                 <li>
-                    <a href="/sign-up">
-                         Sign Up
+                    <a href="/sign_up"><i class="fas fa-angle-down"></i>
+                        Join us
                     </a>
-                </li>
+                    <ul>
+                      
+                          
+                            <li><a href="/sign_up">Sign Up</a></li>
+                          
+                          </li>
+                      
+                          
+                            <li><a href="/guests">Guests</a></li>
+                          
+                          </li>
+                      
+                          
+                            <li><a href="/waitlist">Waitlist</a></li>
+                          
+                          </li>
+                      
+                    </ul>
+                  </li>
             
         
             
@@ -90,6 +116,14 @@
                 <li>
                     <a href="/contact">
                          Contact
+                    </a>
+                </li>
+            
+        
+            
+                <li>
+                    <a href="/admin">
+                         Admin
                     </a>
                 </li>
             
@@ -121,26 +155,28 @@
 							<p>Club sessions are held every Friday from 6:00PM to 10:00PM at <a href="https://www.google.ca/maps/place/Confederation+Education+Centre/@45.3285748,-75.7504288,17z/data=!4m6!3m5!1s0x4cce07742947966f:0x36f2fb29f33bb9f!8m2!3d45.3285711!4d-75.7478539!16s%2Fg%2F1hf3gv_wt?entry=ttu">1645 Woodroffe Ave, Nepean, ON K2G 1W2</a>.</p>
 						</header>
 						
-          <div id="map" class="box"></div>
+  <div id="map" class="box"></div>
   
     
     
-          <!-- OpenStreetMap -->
-          <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="anonymous"/>
-          <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin="anonymous"></script>
-          <script>
-              var loc = [ 45.3285 , -75.74743 ];
-              var mymap = L.map("map").setView(loc, 17 );
-              L.tileLayer(
-                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {
-                  attribution:
-                    'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-                    maxZoom: 17 }
-              ).addTo(mymap);
-                var marker = L.marker(loc).addTo(mymap);
-          </script>
-          <iframe src="https://calendar.google.com/calendar/embed?src=53279d7235f0474855720a0abf14ea875ca1ebb2ae34632b01e426a97dba07a6%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <!-- OpenStreetMap -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="anonymous"/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin="anonymous"></script>
+    <script>
+        var loc = [ 45.3285 , -75.74743 ];
+        var mymap = L.map("map").setView(loc, 17 );
+        L.tileLayer(
+          "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          {
+            attribution:
+              'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+              maxZoom: 17 }
+        ).addTo(mymap);
+          var marker = L.marker(loc).addTo(mymap);
+    </script>
+  
+
+
 					</section>
 					
 
