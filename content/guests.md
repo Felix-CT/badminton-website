@@ -8,3 +8,4 @@ draft: false
 
 <p id="guests-count">Loading...</p>
 
+<script src="/js/guests.js"></script>
