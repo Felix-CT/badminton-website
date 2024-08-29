@@ -5,10 +5,10 @@ var callAPI = (requestType, newLimit=null)=>{
     // add content type header to object
     myHeaders.append("Content-Type", "application/json");
 
-    apiUrl = "https://nyia4b53xa.execute-api.us-east-2.amazonaws.com/Dev";
+    const apiUrl = "https://nyia4b53xa.execute-api.us-east-2.amazonaws.com/Dev";
     // using built in JSON utility package turn object to string and store in a variable
     if (newLimit === null){
-        var requestOptions = {
+        const requestOptions = {
             method: requestType,
             headers: myHeaders,
             redirect: 'follow'
@@ -25,7 +25,7 @@ var callAPI = (requestType, newLimit=null)=>{
         })
         .catch(error => console.log('error', error));
     } else {
-        var requestOptions = {
+        const requestOptions = {
         method: requestType,
         headers: myHeaders,
         body: JSON.stringify({"newLimit":newLimit}),
@@ -35,19 +35,12 @@ var callAPI = (requestType, newLimit=null)=>{
         // make API call with parameters and use promises to get response
         fetch(apiUrl, requestOptions)
         .then(response => response.text())
-        .then(guestListUpdateSuccess())
+        .then(guestListUpdateSuccess)
         .catch(error => console.log('error', error));
-}
-    };
+    }
+};
 
-    // create a JSON object with parameters for API call and store in a variable
-    var requestOptions = {
-        method: requestType,
-        headers: myHeaders,
-        body: raw,
-        redirect: 'follow'
-    };
-    
+
 
 var getGuestLimit = ()=>{
     return callAPI('GET');
@@ -65,6 +58,7 @@ var guestListUpdateSuccess = ()=>{
 
 document.getElementById('password-form').addEventListener('submit', function(e) {
     e.preventDefault();
+    
 
     const password = document.getElementById('password').value;
     const messageElement = document.getElementById('message');
