@@ -131,11 +131,14 @@ enableInlineShortcodes = true
 
 
   [params.map]
-    service = "osm" #"osm" for OpenStreetMaps, "google" for Google Maps, or "mapbox" for Mapbox, see SETUP.md
-    # For Open Street Map widgets
-    latitude = "45.3285"
-    longitude = "-75.74743"
+    service = "google"
+    latitude = "45.3281496"
+    longitude = "-75.7477432"
     zoom = "17"
+    api_key = "AIzaSyARirp9gm7v3KzDCFkT3XgzJ1cteWFRyx0"
+
+#  [params.googleMap]
+#    mapHTML = <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1402.4941678110404!2d-75.747289!3d45.328858!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce07742947966f%3A0x36f2fb29f33bb9f!2sConfederation%20Education%20Centre!5e0!3m2!1sen!2sus!4v1724943467075!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
   [params.contact]
