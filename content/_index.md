@@ -13,7 +13,7 @@
 [services]
   title = "Friday night badminton"
   text = "Club sessions are held every Friday from 6:00PM to 10:00PM at [1645 Woodroffe Ave, Nepean, ON K2G 1W2](https://www.google.ca/maps/place/Confederation+Education+Centre/@45.3285748,-75.7504288,17z/data=!4m6!3m5!1s0x4cce07742947966f:0x36f2fb29f33bb9f!8m2!3d45.3285711!4d-75.7478539!16s%2Fg%2F1hf3gv_wt?entry=ttu)."
-  map_location = "Cathédrale Notre-Dame de Paris"
+  map_location = "Confederation Education Centre"
 
 
 [feature_images]
