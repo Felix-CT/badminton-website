@@ -37,6 +37,6 @@ var getGuestLimit = async () => {
 document.addEventListener('DOMContentLoaded', async function() {
     const guestLimit = await getGuestLimit();
     if (guestLimit !== null) {
-        document.getElementById("guests-count").value = guestLimit;
+        document.getElementById("guests-count").innerText = guestLimit;
     }
 });
