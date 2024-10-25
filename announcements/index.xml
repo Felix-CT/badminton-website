@@ -8,8 +8,15 @@
     <language>en-us</language>
     <managingEditor>test@example.com (Web Author)</managingEditor>
     <webMaster>test@example.com (Web Author)</webMaster>
-    <lastBuildDate>Thu, 05 Sep 2024 21:13:49 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 25 Oct 2024 18:07:49 -0400</lastBuildDate>
     <atom:link href="/announcements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Cancellations</title>
+      <link>/announcements/new-cancellations/</link>
+      <pubDate>Fri, 25 Oct 2024 18:07:49 -0400</pubDate><author>test@example.com (Web Author)</author>
+      <guid>/announcements/new-cancellations/</guid>
+      <description>Hello Bell badminton shuttlers,&#xA;Hope everyone is enjoying the season so far.&#xA;We&amp;rsquo;ve received a notice from the school board that the following bookings have been cancelled:&#xA;Please make note of the following cancellations where there will be NO badminton play:&#xA;April 11, 2025 May 30, 2025 This means that our new last day of badminton will be May 23rd, 2025&#xA;See you all tonight,&#xA;Bell Badminton Club</description>
+    </item>
     <item>
       <title>Bell Badminton Club 2024/2025 Season</title>
       <link>/announcements/2024_2025-season/</link>
