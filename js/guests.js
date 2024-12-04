@@ -1,10 +1,11 @@
-import { setTimeout } from "timers/promises";
+// Custom promise-based setTimeout implementation
+const setTimeoutPromise = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 // Code to retrieve value from the database
 document.addEventListener('DOMContentLoaded', async function() {
     let guestLimit = sessionStorage.getItem('guestLimit');
     while (!guestLimit){
-        await setTimeout(1000);
+        await setTimeoutPromise(1000);
         guestLimit = sessionStorage.getItem('guestLimit')
     }
 
