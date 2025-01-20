@@ -1,5 +1,5 @@
 ---
-title: "Waitlist"
+title: "Guests"
 tags: ""
 draft: false
 ---

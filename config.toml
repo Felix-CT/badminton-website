@@ -80,12 +80,6 @@ enableInlineShortcodes = true
     parent = "Join us"
     url = "/guests"
     weight = 3
-    
-  [[menu.main]]
-    name = "Waitlist"
-    parent = "Join us"
-    url = "/waitlist"
-    weight = 4
 
   [[menu.main]]
     name = "Contact"
