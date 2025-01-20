@@ -1,0 +1,37 @@
+.execContainer {
+    
+    display: flex; /* Use Flexbox for horizontal alignment */
+    align-items: center; /* Vertically align image and text */
+    justify-content: flex-start; /* Align items to the left */
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden; /* Ensures no content overflows the container */
+  }
+  
+  .headshot {
+    flex-shrink: 0; /* Prevent image from shrinking */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Circular image */
+    object-fit: cover; /* Crop and fit image */
+    margin-right: 20px; /* Space between image and text */
+  }
+  
+  .details {
+    flex-grow: 1; /* Allow text to take up remaining space */
+    display: flex;
+    flex-direction: column; /* Stack name and description vertically */
+  }
+  
+  .name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+  }
+  
+  .description {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0;
+  }

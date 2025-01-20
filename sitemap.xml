@@ -43,6 +43,10 @@
   </url><url>
     <loc>/contact/</loc>
   </url><url>
+    <loc>/executives/</loc>
+  </url><url>
+    <loc>/guests/</loc>
+  </url><url>
     <loc>/preachers/</loc>
   </url><url>
     <loc>/series/</loc>
@@ -50,9 +54,5 @@
     <loc>/sign_up/</loc>
   </url><url>
     <loc>/tags/</loc>
-  </url><url>
-    <loc>/guests/</loc>
-  </url><url>
-    <loc>/waitlist/</loc>
   </url>
 </urlset>
