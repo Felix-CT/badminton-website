@@ -1,7 +1,7 @@
 ---
 title: "REMINDER: Bell Badminton Club 2025/26 Season Registration"
 subtitle: ""
-date: 2025-08-05 T11:01:00-04:00
+date: 2025-08-05T11:01:00-04:00
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Bell Badminton Club Update- January 31, 2025"
 subtitle: ""
-date: 2025-01-31 T11:46:00-04:00
+date: 2025-01-31T11:46:00-04:00
 draft: false
 ---
 

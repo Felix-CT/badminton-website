@@ -1,7 +1,7 @@
 ---
 title: "No Badminton- Friday, February 14, 2025"
 subtitle: ""
-date: 2025-02-12 T17:00:00-04:00
+date: 2025-02-12T17:00:00-04:00
 draft: false
 ---
 
