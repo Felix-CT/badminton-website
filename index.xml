@@ -8,8 +8,15 @@
     <language>en-us</language>
     <managingEditor>test@example.com (Web Author)</managingEditor>
     <webMaster>test@example.com (Web Author)</webMaster>
-    <lastBuildDate>Tue, 05 Aug 2025 11:01:00 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 09:08:00 -0400</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bell Badminton Club 2025/2026 Season</title>
+      <link>/announcements/2024_2025-season/</link>
+      <pubDate>Fri, 12 Sep 2025 09:08:00 -0400</pubDate><author>test@example.com (Web Author)</author>
+      <guid>/announcements/2024_2025-season/</guid>
+      <description>&lt;p&gt;Hello Bell badminton shuttlers,&lt;/p&gt;&#xA;&lt;p&gt;Hope everyone had a fantastic summer.&lt;br&gt;&#xA;The Bell Badminton Club 2024/2025 season will be starting on &lt;strong&gt;&lt;u&gt;Friday, September 20, 2024 at 6:00 p.m.&lt;/u&gt;&lt;/strong&gt;&lt;br&gt;&#xA;We play every Friday from 6:00 p.m. to 10:00 p.m.; however, we kindly ask everyone to stop playing at 9:45 p.m. to help clean-up and to put away the equipment.&lt;/p&gt;&#xA;&lt;h4&gt;&lt;strong&gt;&lt;u&gt;Cancellations&lt;/u&gt;&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;p&gt;Please make note of the following cancellations where there will be NO badminton play:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>REMINDER: Bell Badminton Club 2025/26 Season Registration</title>
       <link>/announcements/august-5-2025/</link>
@@ -37,13 +44,6 @@
       <pubDate>Tue, 25 Mar 2025 11:36:00 -0400</pubDate><author>test@example.com (Web Author)</author>
       <guid>/announcements/march-28-2025/</guid>
       <description>&lt;p&gt;Hello Bell Badminton Shuttlers,&lt;/p&gt;&#xA;&lt;p&gt;Just a friendly reminder that there will be no badminton this Friday, March 28, 2025 due to the cancellation by the school board for an event.&lt;/p&gt;&#xA;&lt;p&gt;We will resume play on Friday, April 4 , 2025.&lt;/p&gt;&#xA;&lt;p&gt;&lt;u&gt;Gym Cancellations&lt;/u&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;March 28, 2025&lt;/li&gt;&#xA;&lt;li&gt;April 11, 2025&lt;/li&gt;&#xA;&lt;li&gt;April 18, 2025&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Should you have any questions or concerns, please do not hesitate to contact us.&lt;/p&gt;&#xA;&lt;p&gt;Enjoy the rest of your week,&#xA;Bell Badminton Club&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>No Badminton on March 14, 2025</title>
-      <link>/announcements/march-14-2025/</link>
-      <pubDate>Mon, 10 Mar 2025 13:14:00 -0400</pubDate><author>test@example.com (Web Author)</author>
-      <guid>/announcements/march-14-2025/</guid>
-      <description>&lt;p&gt;Hello Bell Badminton Shuttlers,&lt;/p&gt;&#xA;&lt;p&gt;Just a friendly reminder that there will be no badminton this Friday, March 14, 2025 due to March break.&lt;/p&gt;&#xA;&lt;p&gt;We will resume play on Friday, March 21, 2025.&lt;/p&gt;&#xA;&lt;p&gt;Unfortunately, the school has cancelled another session on March 28, 2025 due to a school event. Therefore, there will also be no badminton on this day.&lt;/p&gt;&#xA;&lt;p&gt;&lt;u&gt;Gym Cancellations&lt;/u&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;March 14, 2025&lt;/li&gt;&#xA;&lt;li&gt;March 28, 2025&lt;/li&gt;&#xA;&lt;li&gt;April 11, 2025&lt;/li&gt;&#xA;&lt;li&gt;April 18, 2025&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Should you have any questions or concerns, please do not hesitate to contact us.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
