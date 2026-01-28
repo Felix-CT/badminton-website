@@ -1,0 +1,6 @@
+{{- $dir := .Get "dir" | default "." -}}
+<div class="gallery">
+  {{- range (.Page.Resources.Match (printf "%s/*" $dir)) -}}
+    <img src="{{ .RelPermalink }}" alt="{{ .Name }}">
+  {{- end -}}
+</div>
