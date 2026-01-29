@@ -1,13 +1,13 @@
 ---
-title: "Christmas Party"
+title: "2025 Christmas Party"
 subtitle: ""
-date: 2025-12-20T18:00:00-05:00
+date: 2025-12-19T18:00:00-05:00
+images: ["images/a.jpeg"]
 tags: ["events"]
 draft: false
 ---
 
-We’re excited to celebrate the season together with friends and family.
-Join us for an evening of games, snacks, and great company.
-Thanks to everyone who made this event special!
+Thanks to all of the club members who came out for the 2025 Christmas party. We had a fun evening filled with great food, prizes, and of course, Badminton!
+Special thanks to Cindy for organizing all of the gifts!
 
 {{< gallery dir="images" >}}
