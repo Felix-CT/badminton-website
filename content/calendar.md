@@ -1,5 +1,6 @@
 ---
 title: "Calendar"
+description: "View the Bell Badminton Club calendar for session dates, events, and updates."
 tags: ""
 draft: false
 ---

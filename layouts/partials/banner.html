@@ -1,0 +1,10 @@
+{{ $bannerImage := .Site.Params.Banner.image }}
+<section id="banner"{{ if $bannerImage }} style="background-image: url('{{ $bannerImage | relURL }}'); background-position: center center; background-repeat: no-repeat; background-size: cover;"{{ end }}>
+  <h2>{{ .Site.Params.title }}</h2>
+  <p>{{ .Site.Params.subtitle }}</p>
+  <ul class="actions special">
+    {{ range .Params.Banner.button }}
+      <li><a href="{{ .url | relURL }}" class="button {{ .type }}">{{ .text }}</a></li>
+    {{ end }}
+  </ul>
+</section>

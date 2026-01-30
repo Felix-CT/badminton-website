@@ -1,5 +1,6 @@
 ---
 title: "Guests"
+description: "Guest policy and fees for Bell Badminton Club sessions in Ottawa."
 tags: ""
 draft: false
 ---

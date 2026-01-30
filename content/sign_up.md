@@ -1,5 +1,6 @@
 ---
 title: "Sign up"
+description: "Membership and waitlist information for Bell Badminton Club."
 images: ["img/join-us.jpg"]
 tags: ""
 draft: false

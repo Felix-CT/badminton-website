@@ -1,5 +1,6 @@
 ---
 title: "About"
+description: "Learn about Bell Badminton Club, founded in 2005 in Ottawa, offering inclusive badminton for all skill levels."
 images: ["img/group_cropped.jpg"]
 draft: false
 ---

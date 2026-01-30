@@ -1,5 +1,6 @@
 ---
 title: "Executives"
+description: "Meet the Bell Badminton Club executive team and board members."
 draft: false
 ---
 <head>

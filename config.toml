@@ -1,7 +1,11 @@
 # baseURL = ""
+baseURL = "https://bellbadmintonclub.ca/"
 languageCode = "en-us"
-# title = "Bell Badminton Club"
+title = "Bell Badminton Club"
 theme = "alpha-church"
+
+canonifyURLs = true
+enableRobotsTXT = true
 
 rssLimit = 5
 pagerSize = 4
@@ -17,6 +21,11 @@ enableInlineShortcodes = true
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [taxonomies]
   tag = "tags"
@@ -95,6 +104,7 @@ enableInlineShortcodes = true
 [params]
   title = "Bell Badminton Club"
   subtitle = "Fun for all"
+  description = "The Bell Badminton Club in Ottawa offers friendly Friday night badminton for all skill levels at Confederation Education Centre."
   [params.author]
     name = "Web Author"
     email = "test@example.com"
@@ -114,6 +124,8 @@ enableInlineShortcodes = true
   [params.banner]
     image = "img/banner.jpg"
 
+  images = ["/img/banner.jpg"]
+
   [[banner.button]]
     url = "/contact"
     text = "Get in touch"
@@ -131,8 +143,10 @@ enableInlineShortcodes = true
     zoom = "17"
     api_key = "AIzaSyBd6qWaXBEUc3mjUvydn_nXNmkyFGUQKPQ"
 
-#  [params.googleMap]
-#    mapHTML = <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1402.4941678110404!2d-75.747289!3d45.328858!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce07742947966f%3A0x36f2fb29f33bb9f!2sConfederation%20Education%20Centre!5e0!3m2!1sen!2sus!4v1724943467075!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  [params.googleMap]
+    mapHTML = """
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1402.4941678110404!2d-75.747289!3d45.328858!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce07742947966f%3A0x36f2fb29f33bb9f!2sConfederation%20Education%20Centre!5e0!3m2!1sen!2sus!4v1724943467075!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    """
 
 
   [params.contact]

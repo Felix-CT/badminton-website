@@ -1,5 +1,6 @@
 ---
 title: "Administrator tools"
+description: "Administrator tools for managing Bell Badminton Club settings."
 tags: ""
 draft: false
 ---

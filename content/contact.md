@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+description: "Contact information for Bell Badminton Club in Ottawa. Email bellbclub@gmail.com for inquiries."
 images: ["img/contact-us.jpg"]
 tags: ""
 draft: false

@@ -1,4 +1,6 @@
 +++
+title = "Bell Badminton Club"
+description = "The Bell Badminton Club in Ottawa offers friendly Friday night badminton for all skill levels at Confederation Education Centre."
 [banner]
   [[banner.button]]
       url = "/contact"
