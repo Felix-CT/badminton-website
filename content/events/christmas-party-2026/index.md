@@ -2,6 +2,8 @@
 title: "2025 Christmas Party"
 subtitle: ""
 date: 2025-12-19T18:00:00-05:00
+images: ["images/a.jpeg"]
+hide_featured_image: true
 tags: ["events"]
 draft: false
 ---
