@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Events on Bell Badminton Club</title>
-    <link>https://bellbadmintonclub.ca/events/</link>
+    <link>/events/</link>
     <description>Recent content in Events on Bell Badminton Club</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>test@example.com (Web Author)</managingEditor>
     <webMaster>test@example.com (Web Author)</webMaster>
     <lastBuildDate>Fri, 19 Dec 2025 18:00:00 -0500</lastBuildDate>
-    <atom:link href="https://bellbadmintonclub.ca/events/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025 Christmas Party</title>
-      <link>https://bellbadmintonclub.ca/events/christmas-party-2026/</link>
+      <link>/events/christmas-party-2026/</link>
       <pubDate>Fri, 19 Dec 2025 18:00:00 -0500</pubDate><author>test@example.com (Web Author)</author>
-      <guid>https://bellbadmintonclub.ca/events/christmas-party-2026/</guid>
-      <description>&lt;p&gt;Thanks to all of the club members who came out for the 2025 Christmas party. We had a fun evening filled with great food, prizes, and of course, Badminton!&#xA;Special thanks to Cindy for organizing all of the gifts!&lt;/p&gt;&#xA;&lt;div class=&#34;gallery&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/a.jpeg&#34; alt=&#34;images/a.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/b.jpeg&#34; alt=&#34;images/b.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/c.jpeg&#34; alt=&#34;images/c.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/d.jpeg&#34; alt=&#34;images/d.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/e.jpeg&#34; alt=&#34;images/e.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/f.jpeg&#34; alt=&#34;images/f.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/g.jpeg&#34; alt=&#34;images/g.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/h.jpeg&#34; alt=&#34;images/h.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/i.jpeg&#34; alt=&#34;images/i.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/j.jpeg&#34; alt=&#34;images/j.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/k.jpeg&#34; alt=&#34;images/k.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/l.jpeg&#34; alt=&#34;images/l.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/m.jpeg&#34; alt=&#34;images/m.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/n.jpeg&#34; alt=&#34;images/n.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/o.jpeg&#34; alt=&#34;images/o.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/p.jpeg&#34; alt=&#34;images/p.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/q.jpeg&#34; alt=&#34;images/q.jpeg&#34;&gt;&lt;img src=&#34;https://bellbadmintonclub.ca/events/christmas-party-2026/images/r.jpeg&#34; alt=&#34;images/r.jpeg&#34;&gt;&lt;/div&gt;</description>
+      <guid>/events/christmas-party-2026/</guid>
+      <description>&lt;p&gt;Thanks to all of the club members who came out for the 2025 Christmas party. We had a fun evening filled with great food, prizes, and of course, Badminton!&#xA;Special thanks to Cindy for organizing all of the gifts!&lt;/p&gt;&#xA;&lt;div class=&#34;gallery&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/a.jpeg&#34; alt=&#34;images/a.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/b.jpeg&#34; alt=&#34;images/b.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/c.jpeg&#34; alt=&#34;images/c.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/d.jpeg&#34; alt=&#34;images/d.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/e.jpeg&#34; alt=&#34;images/e.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/f.jpeg&#34; alt=&#34;images/f.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/g.jpeg&#34; alt=&#34;images/g.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/h.jpeg&#34; alt=&#34;images/h.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/i.jpeg&#34; alt=&#34;images/i.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/j.jpeg&#34; alt=&#34;images/j.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/k.jpeg&#34; alt=&#34;images/k.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/l.jpeg&#34; alt=&#34;images/l.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/m.jpeg&#34; alt=&#34;images/m.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/n.jpeg&#34; alt=&#34;images/n.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/o.jpeg&#34; alt=&#34;images/o.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/p.jpeg&#34; alt=&#34;images/p.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/q.jpeg&#34; alt=&#34;images/q.jpeg&#34;&gt;&lt;img src=&#34;../events/christmas-party-2026/images/r.jpeg&#34; alt=&#34;images/r.jpeg&#34;&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>2023 Chinese new year</title>
-      <link>https://bellbadmintonclub.ca/events/2023-chinese-new-year/</link>
+      <link>/events/2023-chinese-new-year/</link>
       <pubDate>Sun, 07 Jul 2024 21:33:51 -0400</pubDate><author>test@example.com (Web Author)</author>
-      <guid>https://bellbadmintonclub.ca/events/2023-chinese-new-year/</guid>
+      <guid>/events/2023-chinese-new-year/</guid>
       <description>&lt;p&gt;Being an inclusive badminton club, on Friday February 9, we celebrated the Chinese New Year.&lt;/p&gt;&#xA;&lt;p&gt;Since its The year of the Dragon, Cindy made this very beautiful and very delicious cake.&lt;/p&gt;&#xA;&lt;p&gt;Thanks Cindy!&lt;/p&gt;</description>
     </item>
     <item>
       <title>2022-2023 holidays</title>
-      <link>https://bellbadmintonclub.ca/events/2022-2023-holidays/</link>
+      <link>/events/2022-2023-holidays/</link>
       <pubDate>Wed, 10 Jan 2024 21:33:51 -0400</pubDate><author>test@example.com (Web Author)</author>
-      <guid>https://bellbadmintonclub.ca/events/2022-2023-holidays/</guid>
+      <guid>/events/2022-2023-holidays/</guid>
       <description>&lt;p&gt;Hi to all badminton members,&lt;/p&gt;&#xA;&lt;p&gt;Happy New Year first of all.&lt;/p&gt;&#xA;&lt;p&gt;Hope you are all having a good year so far&lt;/p&gt;&#xA;&lt;p&gt;And also included, are the photos taken during our Christmas “Open House” badminton session on December 22th. Special thanks to &lt;em&gt;&lt;strong&gt;Justin&lt;/strong&gt;&lt;/em&gt; and &lt;em&gt;&lt;strong&gt;Eveline&lt;/strong&gt;&lt;/em&gt; who helped with the decorations and to Cindy who made and decorated the beautiful badminton cake. It was very delicious!&lt;/p&gt;&#xA;&lt;p&gt;Thanks also to all of you who were very patient with the large number of guests we had during that evening. It was a great success! Many players manifested their gratefulness and thankfulness during the evening.&lt;/p&gt;</description>
     </item>
   </channel>
