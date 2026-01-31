@@ -1,10 +1,11 @@
 # baseURL = ""
-baseURL = "https://bellbadmintonclub.ca/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Bell Badminton Club"
 theme = "alpha-church"
 
-canonifyURLs = true
+canonifyURLs = false
+relativeURLs = true
 enableRobotsTXT = true
 
 rssLimit = 5
