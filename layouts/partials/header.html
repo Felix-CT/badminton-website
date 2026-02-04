@@ -40,13 +40,13 @@
 		{{ end }}
 		{{ template "_internal/opengraph.html" . }}
 		{{ template "_internal/twitter_cards.html" . }}
-		<link rel="stylesheet" href="{{ "fontawesome/css/all.min.css" | absURL }}" />
+		<link rel="stylesheet" href="{{ "fontawesome/css/all.min.css" | relURL }}" />
 		{{- $css := site.Data.libs.css -}}
 		{{ if .IsPage }}{{ printf "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/plyr/%s/plyr.min.css\" crossorigin=\"anonymous\">" $css.plyr.version | safeHTML }}{{ end }}
 		{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS | minify | fingerprint }}
 		<link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen" crossorigin="anonymous" />
-		<link rel="stylesheet" href="{{ "css/gallery.css" | absURL }}" />
+		<link rel="stylesheet" href="{{ "css/gallery.css" | relURL }}" />
 		{{- range site.Params.customCSS -}}
-    	<link rel="stylesheet" href="{{ . | absURL }}">
-  	{{- end -}}
+	    <link rel="stylesheet" href="{{ . | relURL }}">
+	  	{{- end -}}
 	</head>
