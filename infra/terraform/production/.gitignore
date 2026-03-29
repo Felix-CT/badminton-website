@@ -1,0 +1,16 @@
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.auto.tfvars
+artifacts/*.zip
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Temporary setup policy documents (contain real account IDs)
+terraform-badminton-production.json
+state-bucket-policy.json

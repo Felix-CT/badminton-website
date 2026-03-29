@@ -1,0 +1,158 @@
+// Example values only. Commit this file if useful for documentation, but keep real values in a local terraform.tfvars file.
+
+project_name = "badminton-website"
+environment  = "production"
+aws_region   = "us-east-2"
+
+additional_tags = {
+  Owner = "platform"
+}
+
+route53_zone_id   = "Z1234567890EXAMPLE"
+route53_zone_name = "example.com"
+
+route53_records = {
+  apex_a = {
+    name    = "example.com"
+    type    = "A"
+    ttl     = 300
+    records = ["198.51.100.10"]
+  }
+}
+
+amplify_app_id      = "d123exampleapp"
+amplify_app_name    = "badminton-website"
+amplify_repository  = "https://github.com/example-org/badminton-website"
+amplify_app_environment_variables = {
+  _ADMIN_PASSWORD = "\"change-me\""
+  _LIVE_UPDATES = "[{\"name\":\"Hugo\",\"pkg\":\"hugo\",\"type\":\"hugo\",\"version\":\"latest\"}]"
+}
+amplify_custom_rules = [
+  {
+    source = "https://example.com"
+    target = "https://www.example.com"
+    status = "302"
+  },
+  {
+    source = "/<*>"
+    target = "/index.html"
+    status = "404-200"
+  },
+]
+amplify_branch_name = "main"
+amplify_branch_environment_variables = {
+  _LIVE_UPDATES = "[{\"name\":\"Hugo\",\"pkg\":\"hugo\",\"type\":\"hugo\",\"version\":\"latest\"}]"
+}
+amplify_branch_framework = "Web"
+amplify_branch_stage     = "PRODUCTION"
+amplify_domain_name = "example.com"
+amplify_subdomains = {
+  root = {
+    branch_name = "main"
+    prefix      = ""
+  }
+}
+
+api_gateway_id                          = "a1b2c3d4e5"
+api_gateway_name                        = "ExampleProductionApi"
+api_gateway_root_resource_id            = "abc123def4"
+api_gateway_disable_execute_api_endpoint = false
+api_gateway_endpoint_types              = ["REGIONAL"]
+api_gateway_stage_name                  = "prod"
+api_gateway_stage_deployment_id         = "abc123"
+api_gateway_stage_cache_cluster_enabled = false
+api_gateway_stage_cache_cluster_size    = "0.5"
+api_gateway_stage_tracing_enabled       = false
+api_gateway_root_methods = {
+  GET = {
+    authorization    = "NONE"
+    api_key_required = false
+    request_parameters = {}
+    request_models     = {}
+    method_responses = {
+      "200" = {
+        response_parameters = {
+          "method.response.header.Access-Control-Allow-Origin" = false
+        }
+        response_models = {
+          "application/json" = "Empty"
+        }
+      }
+    }
+    integration = {
+      type                 = "AWS"
+      http_method          = "POST"
+      uri                  = "arn:aws:apigateway:us-east-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-2:123456789012:function:getGuestLimit/invocations"
+      passthrough_behavior = "WHEN_NO_MATCH"
+      content_handling     = "CONVERT_TO_TEXT"
+      timeout_milliseconds = 29000
+      request_templates    = {}
+      integration_responses = {
+        "200" = {
+          response_parameters = {
+            "method.response.header.Access-Control-Allow-Origin" = "'*'"
+          }
+          response_templates = {}
+        }
+      }
+    }
+  }
+}
+lambda_function_names  = ["guest-limit-handler"]
+lambda_functions = {
+  guest-limit-handler = {
+    role_arn               = "arn:aws:iam::123456789012:role/guest-limit-lambda-role"
+    handler                = "lambda_function.lambda_handler"
+    runtime                = "python3.12"
+    timeout                = 3
+    memory_size            = 128
+    package_type           = "Zip"
+    architectures          = ["x86_64"]
+    ephemeral_storage_size = 512
+    filename               = "artifacts/guest-limit-handler.zip"
+    log_group_name         = "/aws/lambda/guest-limit-handler"
+  }
+}
+dynamodb_table_names   = ["guest-limit"]
+dynamodb_tables = {
+  guest-limit = {
+    hash_key                    = "SettingName"
+    billing_mode                = "PROVISIONED"
+    read_capacity               = 1
+    write_capacity              = 1
+    deletion_protection_enabled = false
+    table_class                 = "STANDARD"
+    attributes = [
+      {
+        name = "SettingName"
+        type = "S"
+      }
+    ]
+  }
+}
+
+iam_role_names         = ["guest-limit-lambda-role"]
+iam_roles = {
+  guest-limit-lambda-role = {
+    path                 = "/"
+    description          = "Example Lambda execution role."
+    max_session_duration = 3600
+    assume_role_policy = {
+      Version = "2012-10-17"
+      Statement = [
+        {
+          Effect = "Allow"
+          Principal = {
+            Service = "lambda.amazonaws.com"
+          }
+          Action = "sts:AssumeRole"
+        }
+      ]
+    }
+    managed_policy_arns = ["arn:aws:iam::123456789012:policy/guest-limit-dynamodb"]
+  }
+}
+
+iam_managed_policy_arns = [
+  "arn:aws:iam::123456789012:policy/guest-limit-dynamodb",
+]
