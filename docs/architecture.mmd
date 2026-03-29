@@ -1,0 +1,35 @@
+flowchart TD
+  A[Content Editors] -->|Edit Markdown and static assets| B[master branch]
+  D[Developers] -->|Update layouts, theme, scripts, styles| B
+
+  subgraph Repo[GitHub Repository]
+    B --> E[Hugo Source Tree]
+    E --> E1[content/]
+    E --> E2[layouts/]
+    E --> E3[assets/]
+    E --> E4[static/]
+    E --> E5[themes/alpha-church]
+
+    B --> F[GitHub Actions workflow: hugo.yaml]
+    F -->|Install Hugo + Dart Sass| G[Build public/]
+    G --> H[Generated file manifest]
+    H --> I[Selective sync to hugo-build]
+  end
+
+  I --> J[hugo-build branch]
+  J -->|Repository webhook| K[AWS Amplify]
+  K --> L[Production Website]
+
+  subgraph Infra[Infrastructure as Code]
+    M[infra/terraform/production] --> N[Terraform modules]
+    N --> O[DNS]
+    N --> P[Hosting]
+    N --> Q[IAM]
+    N --> R[Data]
+    N --> S[API]
+  end
+
+  M -. manages infrastructure for .-> K
+  M -. manages backend resources for .-> L
+
+  T[Manual workflow_dispatch] --> F
